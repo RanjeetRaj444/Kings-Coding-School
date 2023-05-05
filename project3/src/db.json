@@ -1,0 +1,50 @@
+{
+    "students":[
+        {
+            "name":"Ranjeet Kumar Raj",
+            "id":1,
+            "profile_Pic":"www.asdkvasda.com/images/",
+            "cover_Pic":"www.asdkvasda.com/",
+            "adresss":"basaha",
+            "course":"webDevlopment",
+            "dob":"12/03/1996"
+        },
+        {
+            "name":"Devesh",
+            "id":2,
+            "profile_Pic":"www.asdkvasda.com/images/",
+            "cover_Pic":"www.asdkvasda.com/",
+            "adresss":"basaha",
+            "course":"webDevlopment",
+            "dob":"12/03/1996"
+            
+        }
+    ],
+
+    "Mentors":[
+        {
+            "name":"Anshuman Baghi",
+            "id":1,
+            "IA":"react"
+        }
+    ],
+    "post":[
+        {
+            "id":1,
+            "image":"www.asdkvasda.com/images/",
+            "comments":"hello every one",
+            "section":"lecture",
+            "status":"live",
+            "title":"how to creat navbar"
+        }
+    ],
+    "user":[
+        {
+            "email":"ranjeer@gmail.com",
+            "password":"password123",
+            "id":1,
+            "type":"student"
+    
+        }
+    ]
+}
