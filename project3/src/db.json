@@ -31,11 +31,50 @@
     "post":[
         {
             "id":1,
-            "image":"www.asdkvasda.com/images/",
+            "image":"https://en.pimg.jp/078/845/674/1/78845674.jpg",
             "comments":"hello every one",
             "section":"lecture",
             "status":"live",
-            "title":"how to creat navbar"
+            "title":"how to creat navbar",
+            "name":"Anshuman Sir",
+            "Time":"12:00 AM"
+        },
+        {
+            "id":6,
+            "image":"https://plus.unsplash.com/premium_photo-1681248156422-c01a2c803588?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+            "comments":"Some qualities of a good teacher include skills in communication, listening, collaboration, adaptability, empathy and patience. Other characteristics of effective teaching include an engaging classroom presence, value in real-world learning, exchange of best practices and a lifelong love of learning.",
+            "section":"feed",
+            "status":"live",
+            "title":"Feeling Great",
+            "name":"Ranjeet"
+        },
+        {
+            "id":7,
+            "image":"https://cdn.elearningindustry.com/wp-content/uploads/2019/10/professional-development-tools-for-teachers.jpg",
+            "comments":"hello every one",
+            "section":"lecture",
+            "status":"live",
+            "title":"how to creat navbar",
+            "name":"Anshuman Sir",
+            "Time":"12:00 AM"
+        },
+        {
+            "id":8,
+            "image":"https://plus.unsplash.com/premium_photo-1681248156422-c01a2c803588?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+            "comments":"Some qualities of a good teacher include skills in communication, listening, collaboration, adaptability, empathy and patience. Other characteristics of effective teaching include an engaging classroom presence, value in real-world learning, exchange of best practices and a lifelong love of learning.",
+            "section":"feed",
+            "status":"live",
+            "title":"Feeling Great",
+            "name":"Ranjeet"
+        },
+        {
+            "id":9,
+            "image":"https://plus.unsplash.com/premium_photo-1681248156422-c01a2c803588?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+            "comments":"Some qualities of a good teacher include skills in communication, listening, collaboration, adaptability, empathy and patience. Other characteristics of effective teaching include an engaging classroom presence, value in real-world learning, exchange of best practices and a lifelong love of learning.",
+            "section":"feed",
+            "status":"live",
+            "title":"Feeling Great",
+            "name":"Ranjeet"
         }
     ],
     "user":[
