@@ -8,18 +8,23 @@ function App() {
     <Box
       border="1px solid"
       display="flex"
-      // justifyContent="space-around"
+      justifyContent="space-between"
       className="App"
+      
     >
-      <Box width="20%">
+      <Box backgroundColor="#EBA9AA" position="sticky" top="0px" height="940px" border="1px solid"  width="20%">
         <Box
-          width="100%"
+          width="80%"
           borderBottom="1px solid grey"
           display="flex"
           justifyContent="space-evenly"
           padding="12px"
           alignItems="center"
-          margin="12px 12px"
+          // margin="12px 12px"
+          border="1px solid grey"
+          margin="auto"
+          marginTop="20px"
+          marginBottom="20px"
         >
           <Image
             width="20%"
@@ -29,15 +34,16 @@ function App() {
           />
           <Heading fontSize="20px">Kings School</Heading>
         </Box>
-        <Box width="100%" className="navbar">
+        <Box width="80%" margin="auto" className="navbar">
           <Navbar />
         </Box>
       </Box>
-      <Box width="80%" className="body">
-        <Box border="1px solid" className="top-Navbar">
+
+      <Box  width="80%" className="body">
+        <Box backgroundColor="white" position="sticky" top="0px" border="1px solid" className="top-Navbar">
           <Heading>Navbar</Heading>
         </Box>
-        <Box className="main-body">
+        <Box backgroundColor="#82C6E0" padding="20px" className="main-body">
           <RouteLinks />
         </Box>
       </Box>
