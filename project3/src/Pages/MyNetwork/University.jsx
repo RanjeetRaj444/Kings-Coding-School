@@ -1,5 +1,9 @@
+import { Box, Heading } from "@chakra-ui/react";
+
 export default function University(){
     return (
-        <div>University Section</div>
+        <Box>
+            <Heading>Universities details are Currently Unavailable......</Heading>
+        </Box>
     )
 }

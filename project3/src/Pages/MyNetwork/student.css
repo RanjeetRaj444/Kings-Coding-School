@@ -1,0 +1,7 @@
+.student-container {
+  align-items: center;
+  margin-bottom: 20px;
+  border: 1px solid gray;
+  background-color: #c4ebf2;
+  display: flex;
+}

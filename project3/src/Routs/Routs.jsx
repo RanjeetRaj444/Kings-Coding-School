@@ -12,13 +12,13 @@ import Login from "../Pages/Login";
 import Private from "../PrivateRoutes/PrivateRoutes";
 import Students from "../Pages/MyNetwork/Students";
 import SignUp from "../Pages/signup";
+import Card from "../components/creatNewPost";
 
 export default function RouteLinks() {
   return (
     <Box>
       <Routes>
         <Route path="/" element={<Feed />} />
-
         <Route
           path="/live"
           element={
@@ -27,7 +27,6 @@ export default function RouteLinks() {
             </Private>
           }
         />
-
         <Route path="/message" element={<Message />} />
         <Route path="/school" element={<School />} />
         <Route
@@ -50,6 +49,8 @@ export default function RouteLinks() {
         <Route path="/companies" element={<Companies />} />
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<SignUp />} />
+        <Route path="/creatPost" element={<Card />} />
+        {/* <Route path="/https://www.youtube.com/watch?v=mBrdvtgc7q0&ab_channel=AbhiOfficialLofi" element={} /> */}
       </Routes>
     </Box>
   );
