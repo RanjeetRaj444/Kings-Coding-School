@@ -1,0 +1,24 @@
+.lecture-feed {
+  border: 1px solid grey;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+.shedule {
+  width: 20%;
+}
+.poster {
+  width: 60%;
+}
+@media (max-width: 890px) {
+  .lecture-feed {
+    display: block;
+  }
+  .shedule {
+    width: 100%;
+  }
+  .poster {
+    width: 100%;
+  }
+}

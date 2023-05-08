@@ -7,7 +7,7 @@ import { FcDislike, FcLike } from "react-icons/fc";
 export default function MessFeed({ ele }) {
   const [Liked, setLike] = useState(10);
   const [active, setAxtive] = useState(false);
-  console.log(Liked);
+  // console.log(Liked);
   function handleLike(e) {
     e.preventDefault();
     setLike(Liked + 1);
@@ -52,7 +52,7 @@ export default function MessFeed({ ele }) {
         justifyContent="space-evenly"
       >
         <Box>
-          <Text>22 Particepent</Text>
+          <Text>Total rating : {ele.rating}</Text>
         </Box>
         <Box display="flex" justifyContent="space-evenly">
           <Button isDisabled={active} onClick={handleLike}>

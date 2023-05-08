@@ -1,89 +1,236 @@
 {
-    "students":[
-        {
-            "name":"Ranjeet Kumar Raj",
-            "id":1,
-            "profile_Pic":"www.asdkvasda.com/images/",
-            "cover_Pic":"www.asdkvasda.com/",
-            "adresss":"basaha",
-            "course":"webDevlopment",
-            "dob":"12/03/1996"
-        },
-        {
-            "name":"Devesh",
-            "id":2,
-            "profile_Pic":"www.asdkvasda.com/images/",
-            "cover_Pic":"www.asdkvasda.com/",
-            "adresss":"basaha",
-            "course":"webDevlopment",
-            "dob":"12/03/1996"
-            
-        }
-    ],
-
-    "Mentors":[
-        {
-            "name":"Anshuman Baghi",
-            "id":1,
-            "IA":"react"
-        }
-    ],
-    "post":[
-        {
-            "id":1,
-            "image":"https://en.pimg.jp/078/845/674/1/78845674.jpg",
-            "comments":"hello every one",
-            "section":"lecture",
-            "status":"live",
-            "title":"how to creat navbar",
-            "name":"Anshuman Sir",
-            "Time":"12:00 AM"
-        },
-        {
-            "id":6,
-            "image":"https://plus.unsplash.com/premium_photo-1681248156422-c01a2c803588?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
-            "comments":"Some qualities of a good teacher include skills in communication, listening, collaboration, adaptability, empathy and patience. Other characteristics of effective teaching include an engaging classroom presence, value in real-world learning, exchange of best practices and a lifelong love of learning.",
-            "section":"feed",
-            "status":"live",
-            "title":"Feeling Great",
-            "name":"Ranjeet"
-        },
-        {
-            "id":7,
-            "image":"https://cdn.elearningindustry.com/wp-content/uploads/2019/10/professional-development-tools-for-teachers.jpg",
-            "comments":"hello every one",
-            "section":"lecture",
-            "status":"live",
-            "title":"how to creat navbar",
-            "name":"Anshuman Sir",
-            "Time":"12:00 AM"
-        },
-        {
-            "id":8,
-            "image":"https://plus.unsplash.com/premium_photo-1681248156422-c01a2c803588?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
-            "comments":"Some qualities of a good teacher include skills in communication, listening, collaboration, adaptability, empathy and patience. Other characteristics of effective teaching include an engaging classroom presence, value in real-world learning, exchange of best practices and a lifelong love of learning.",
-            "section":"feed",
-            "status":"live",
-            "title":"Feeling Great",
-            "name":"Ranjeet"
-        },
-        {
-            "id":9,
-            "image":"https://plus.unsplash.com/premium_photo-1681248156422-c01a2c803588?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
-            "comments":"Some qualities of a good teacher include skills in communication, listening, collaboration, adaptability, empathy and patience. Other characteristics of effective teaching include an engaging classroom presence, value in real-world learning, exchange of best practices and a lifelong love of learning.",
-            "section":"feed",
-            "status":"live",
-            "title":"Feeling Great",
-            "name":"Ranjeet"
-        }
-    ],
-    "user":[
-        {
-            "email":"ranjeer@gmail.com",
-            "password":"password123",
-            "id":1,
-            "type":"student"
-    
-        }
-    ]
+  "students": [
+    {
+      "name": "Ranjeet Kumar Raj",
+      "id": 1,
+      "image": "https://wallpapercave.com/wp/wp1927648.jpg",
+      "coverpic": "www.asdkvasda.com/",
+      "address": "basaha",
+      "course": "webDevlopment",
+      "dob": "12/03/1996"
+    },
+    {
+      "name": "Devesh",
+      "id": 2,
+      "image": "https://wallpapercave.com/wp/wp1927648.jpg",
+      "coverpic": "www.asdkvasda.com/",
+      "address": "basaha",
+      "course": "webDevlopment",
+      "dob": "12/03/1996"
+    },
+    {
+      "name": "Puja",
+      "email": "ranjeetraj44666@gmail.com",
+      "password": "1111",
+      "course": "Back end Devloper",
+      "image": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg",
+      "coverpic": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg",
+      "DateOfBirth": "2023-05-27",
+      "address": "Primary School Daha, Daha, Madhepura, Bihar, India",
+      "id": 3
+    },
+    {
+      "name": "Ranjeet ",
+      "email": "ranjeetraj44666@gmail.com",
+      "password": "3333",
+      "course": "Back end Devloper",
+      "image": "https://www.en.etemaaddaily.com/pages/entertainment/filmtv/6528904734aamirkhanrobinhood(1).jpg",
+      "coverpic": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg",
+      "DateOfBirth": "2023-05-12",
+      "address": "Babhani Chok, Madhepura, Bihar",
+      "id": 4
+    },
+    {
+      "name": "punita",
+      "email": "eve.holt@reqres.in",
+      "password": "xxxxx",
+      "course": "Font end Devloper",
+      "image": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg",
+      "coverpic": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg",
+      "DateOfBirth": "2023-05-24",
+      "address": "Primary School Daha, Daha, Madhepura, Bihar, India. Building no 2",
+      "id": 5
+    },
+    {
+      "name": "Ranjeet 5675",
+      "email": "ranjeetraj44666@gmail.com",
+      "password": "yyyy",
+      "course": "Back end Devloper",
+      "image": "https://pbs.twimg.com/media/EvXjoAkUYAE5K7O.jpg",
+      "coverpic": "https://pbs.twimg.com/media/EvXjoAkUYAE5K7O.jpg",
+      "DateOfBirth": "2023-05-08",
+      "address": "Babhani Chok, Madhepura, Bihar",
+      "id": 6
+    },
+    {
+      "name": "Radha",
+      "email": "ranjeetraj44666@gmail.com",
+      "password": "ranjeet",
+      "course": "Font end Devloper",
+      "image": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg",
+      "coverpic": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg",
+      "DateOfBirth": "2023-05-31",
+      "address": "Babhani Chok, Madhepura, Bihar1",
+      "id": 8
+    }
+  ],
+  "Mentors": [
+    {
+      "name": "Anshuman Baghi",
+      "email": "arjunpathak44666@gmail.com",
+      "role": "Coding Instructor",
+      "image": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg",
+      "id": 1,
+      "mob": 7488081571
+    },
+    {
+      "name": "Anshuman Baghi",
+      "email": "arjunpathak44666@gmail.com",
+      "role": "Coding Ia",
+      "image": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg",
+      "id": 2,
+      "mob": 7488081571
+    },
+    {
+      "name": "Anshuman Baghi",
+      "email": "arjunpathak44666@gmail.com",
+      "role": "DSA Instructor",
+      "image": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg",
+      "id": 3,
+      "mob": 7488081571
+    },
+    {
+      "name": "Anshuman Baghi",
+      "email": "arjunpathak44666@gmail.com",
+      "role": "DSA Ia",
+      "image": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg",
+      "id": 4,
+      "mob": 7488081571
+    },
+    {
+      "name": "Arjun Pathak",
+      "email": "arjunpathak44666@gmail.com",
+      "course": "coding",
+      "role": "CSBT Instructor",
+      "image": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg",
+      "id": 5,
+      "mob": 7488081571
+    }
+  ],
+  "post": [
+    {
+      "id": 1,
+      "image": "https://en.pimg.jp/078/845/674/1/78845674.jpg",
+      "comments": "hello every one",
+      "section": "lecture",
+      "status": "live",
+      "title": "how to creat navbar",
+      "name": "Anshuman Sir",
+      "Time": "12:00 AM",
+      "date": "12-02-2022"
+    },
+    {
+      "id": 6,
+      "image": "https://plus.unsplash.com/premium_photo-1681248156422-c01a2c803588?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+      "comments": "Some qualities of a good teacher include skills in communication, listening, collaboration, adaptability, empathy and patience. Other characteristics of effective teaching include an engaging classroom presence, value in real-world learning, exchange of best practices and a lifelong love of learning.",
+      "section": "feed",
+      "title": "Feeling Great",
+      "name": "Ranjeet",
+      "rating": 4.6
+    },
+    {
+      "id": 7,
+      "image": "https://cdn.elearningindustry.com/wp-content/uploads/2019/10/professional-development-tools-for-teachers.jpg",
+      "comments": "hello every one",
+      "section": "lecture",
+      "status": "live",
+      "title": "how to creat navbar",
+      "name": "Anshuman Sir",
+      "Time": "12:00 AM",
+      "date": "15-02-2022"
+    },
+    {
+      "id": 8,
+      "image": "https://plus.unsplash.com/premium_photo-1681248156422-c01a2c803588?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+      "comments": "Some qualities of a good teacher include skills in communication, listening, collaboration, adaptability, empathy and patience. Other characteristics of effective teaching include an engaging classroom presence, value in real-world learning, exchange of best practices and a lifelong love of learning.",
+      "section": "feed",
+      "title": "Feeling Great",
+      "name": "Ranjeet",
+      "rating": 4.8
+    },
+    {
+      "id": 9,
+      "image": "https://plus.unsplash.com/premium_photo-1681248156422-c01a2c803588?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+      "comments": "Some qualities of a good teacher include skills in communication, listening, collaboration, adaptability, empathy and patience. Other characteristics of effective teaching include an engaging classroom presence, value in real-world learning, exchange of best practices and a lifelong love of learning.",
+      "section": "feed",
+      "title": "Feeling Great",
+      "name": "Ranjeet",
+      "rating": 4.2
+    },
+    {
+      "name": "Ranjeet ",
+      "image": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg",
+      "comments": "aswdefasdfeghdm  detyudrtnret7u wertrvtvw reswtyetryb w54eybrew tyw5y wrtyhdbjdrth vbrewtghsrthdfty ne",
+      "title": "Happy Happy",
+      "section": "feed",
+      "rating": 3.5,
+      "id": 10
+    },
+    {
+      "name": "Puja",
+      "image": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg",
+      "comments": "Google Color Picker We've designed a Google Color Picker for you to find your colors in an easy and beautiful way. Stop wasting time, Go pick!",
+      "title": "Color Picker",
+      "section": "feed",
+      "rating": 3.5,
+      "id": 11
+    },
+    {
+      "name": "Devesh",
+      "image": "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg",
+      "comments": "Google Color Picker We've designed a Google Color Picker for you to find your colors in an easy and beautiful way. Stop wasting time, Go pick!",
+      "title": "I am the BatMan",
+      "section": "feed",
+      "rating": 3.5,
+      "id": 12
+    }
+  ],
+  "messages": [
+    {
+      "id": 0,
+      "creator": "Ranjeet raj",
+      "title": "Masaiverse is coming to Lucknow, Uttar Pradesh on June 11th!",
+      "message": "We are thrilled to announce that Masaiverse is coming to Lucknow, Uttar Pradesh on June 11th!This is an exciting opportunity for us to bring our community together and celebrate our shared passion for innovation, creativity, and skills.To find out more about the event and to register your interest, please fill out the form - https://lu.ma/masaiverseUP We can't wait to see you all there and to share this amazing experience with you.Best regards, Masaiverse Team"
+    },
+    {
+      "id": 1,
+      "creator": "Ranjeet raj",
+      "title": "Masaiverse is coming to Lucknow, Uttar Pradesh on June 11th!",
+      "message": "We are thrilled to announce that Masaiverse is coming to Lucknow, Uttar Pradesh on June 11th!This is an exciting opportunity for us to bring our community together and celebrate our shared passion for innovation, creativity, and skills.To find out more about the event and to register your interest, please fill out the form - https://lu.ma/masaiverseUP We can't wait to see you all there and to share this amazing experience with you.Best regards, Masaiverse Team"
+    },
+    {
+      "id": 2,
+      "creator": "Ranjeet raj",
+      "title": "Masaiverse is coming to Lucknow, Uttar Pradesh on June 11th!",
+      "message": "We are thrilled to announce that Masaiverse is coming to Lucknow, Uttar Pradesh on June 11th!This is an exciting opportunity for us to bring our community together and celebrate our shared passion for innovation, creativity, and skills.To find out more about the event and to register your interest, please fill out the form - https://lu.ma/masaiverseUP We can't wait to see you all there and to share this amazing experience with you.Best regards, Masaiverse Team"
+    },
+    {
+      "id": 3,
+      "creator": "Ranjeet raj",
+      "title": "Masaiverse is coming to Lucknow, Uttar Pradesh on June 11th!",
+      "message": "We are thrilled to announce that Masaiverse is coming to Lucknow, Uttar Pradesh on June 11th!This is an exciting opportunity for us to bring our community together and celebrate our shared passion for innovation, creativity, and skills.To find out more about the event and to register your interest, please fill out the form - https://lu.ma/masaiverseUP We can't wait to see you all there and to share this amazing experience with you.Best regards, Masaiverse Team"
+    },
+    {
+      "id": 4,
+      "creator": "Ranjeet raj",
+      "title": "Masaiverse is coming to Lucknow, Uttar Pradesh on June 11th!",
+      "message": "We are thrilled to announce that Masaiverse is coming to Lucknow, Uttar Pradesh on June 11th!This is an exciting opportunity for us to bring our community together and celebrate our shared passion for innovation, creativity, and skills.To find out more about the event and to register your interest, please fill out the form - https://lu.ma/masaiverseUP We can't wait to see you all there and to share this amazing experience with you.Best regards, Masaiverse Team"
+    },
+    {
+      "id": 5,
+      "creator": "Ranjeet raj",
+      "title": "Masaiverse is coming to Lucknow, Uttar Pradesh on June 11th!",
+      "message": "We are thrilled to announce that Masaiverse is coming to Lucknow, Uttar Pradesh on June 11th!This is an exciting opportunity for us to bring our community together and celebrate our shared passion for innovation, creativity, and skills.To find out more about the event and to register your interest, please fill out the form - https://lu.ma/masaiverseUP We can't wait to see you all there and to share this amazing experience with you.Best regards, Masaiverse Team"
+    }
+  ]
 }
