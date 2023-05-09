@@ -193,6 +193,15 @@
       "section": "feed",
       "rating": 3.5,
       "id": 12
+    },
+    {
+      "name": "Ranjeet 5675",
+      "image": "https://www.freecodecamp.org/news/content/images/2022/02/arnold-francisca-f77Bh3inUpE-unsplash.jpg",
+      "comments": "In object-oriented programming, a class is a template definition of the methods and variables in a particular kind of object. Thus, an object is a specific instance of a class; it contains real values instead of variables.",
+      "title": "How to implement responsive ui",
+      "section": "feed",
+      "rating": 3.5,
+      "id": 13
     }
   ],
   "messages": [

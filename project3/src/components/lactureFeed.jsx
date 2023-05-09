@@ -14,7 +14,7 @@ export default function LacrureFeed({ ele }) {
       width="70%"
       margin="auto"
       marginBottom="12px"
-      backgroundColor="#82E0AE"
+      backgroundColor="whitesmoke"
       //   marginTop="12px"
       //   border="1px solid red"
     >
@@ -41,7 +41,7 @@ export default function LacrureFeed({ ele }) {
           <Image width="20%" src={ele.image} alt="image" />
           <Box>
           <Heading>{ele.title}</Heading>
-          <Text fontSize="32px" color="#565C20">By: {ele.name}</Text>
+          <Text fontSize="32px" color="whitesmoke">By: {ele.name}</Text>
           </Box>
         </Box>
       </Box>

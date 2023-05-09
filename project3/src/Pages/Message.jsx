@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 export default function Message() {
   const [data, setData] = useState([]);
   function fetchMessage() {
-    fetch("http://localhost:3000/messages")
+    fetch("https://json-server-is-live.onrender.com/messages")
       .then((res) => res.json())
       .then((data1) => {
         setData(data1);

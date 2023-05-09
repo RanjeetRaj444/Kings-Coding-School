@@ -18,7 +18,7 @@ export default function Card() {
   }
   function post(e) {
     e.preventDefault();
-    fetch("http://localhost:3000/post", {
+    fetch("https://json-server-is-live.onrender.com/post", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

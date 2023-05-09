@@ -24,17 +24,17 @@ export default function MessFeed({ ele }) {
       width="70%"
       margin="auto"
       marginBottom="12px"
-      backgroundColor="#E0B082"
+      backgroundColor="whitesmoke"
     //   border="1px solid red"
     >
-      <Box padding="12px" border="1px solid grey" textAlign="center">
-        <Text>G.Henderson reviesed a mentor</Text>
+      <Box padding="12px"  textAlign="center">
+        <Text>G.Henderson reviewed a mentor</Text>
       </Box>
 
       <Box
         textAlign="center"
         padding="12px"
-        border="1px solid grey"
+        // border="1px solid grey"
         display="flex"
       >
         <Image marginRight="12px" width="20%" src={ele.image} alt="image" />
@@ -47,7 +47,7 @@ export default function MessFeed({ ele }) {
       <Box
        padding="12px"
         textAlign="center"
-        border="1px solid grey"
+        // border="1px solid grey"
         display="flex"
         justifyContent="space-evenly"
       >

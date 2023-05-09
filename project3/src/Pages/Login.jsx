@@ -1,9 +1,10 @@
-import { Box, FormLabel, Heading, Input } from "@chakra-ui/react";
+import { Box, Button, FormLabel, Heading, Input } from "@chakra-ui/react";
 import { useContext, useState } from "react";
 import "./Login.css";
 // import RouteLinks from "../Routs/Routs";
 import { Link, useNavigate } from "react-router-dom";
 import { AppContext } from "../context/Context";
+import { GiBottomRight3DArrow } from "react-icons/gi";
 let obj = {
   email: "",
   password: "",
@@ -18,7 +19,7 @@ export default function Login() {
   }
   function addData(e) {
     e.preventDefault();
-    fetch("http://localhost:3000/students", {})
+    fetch("https://json-server-is-live.onrender.com/students", {})
       .then((res) => res.json())
       .then((data1) => {
         data1.map((ele) => {
@@ -67,9 +68,23 @@ export default function Login() {
             value="Login"
           />
         </form>
-        {state && <Heading color="red">Invalid Email or Password</Heading>}
-        <Heading className="account">
-          <Link to="/signup">Creat a NewAccount</Link>
+        {state && (
+          <Heading color="red">
+            "Invalid Email or Password "<br />{" "}
+            <span style={{ color: "green" }}>Creat a new account</span> <br />
+            <span
+              style={{
+                display: "flex",
+                justifyContent: "center",
+                color: "blue",
+              }}
+            >
+              <GiBottomRight3DArrow />
+            </span>
+          </Heading>
+        )}
+        <Heading >
+          <Link to="/signup"><Button className="account" backgroundColor="blue" >Creat a NewAccount</Button></Link>
         </Heading>
       </Box>
     </Box>

@@ -1,9 +1,7 @@
 .account {
-  color: #51679e;
-  border: 1px solid green;
-  width: 70%;
-  margin: auto;
-  margin-top: 30px;
-  border-radius: 20px;
-  background-color: #5bc2c2;
+  background-color: blue;
+  color: white;
+}
+.account:hover {
+  color: black;
 }

@@ -7,7 +7,7 @@ export default function School() {
       <Box className="body2">
         <Image
           className="image"
-          src="https://mcmscache.epapr.in/post_images/website_451/post_31721673/full.jpg"
+          src="https://www.joonsquare.com/usermanage/image/business/h-d-sr-sec-school-rohtak-1032/h-d-sr-sec-school-rohtak-hd7.jpg"
           alt="err"
         />
       </Box>

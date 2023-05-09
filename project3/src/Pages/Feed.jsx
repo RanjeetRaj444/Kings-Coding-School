@@ -10,7 +10,7 @@ export default function Feed() {
   const [data, setData] = useState([]);
   // console.log(data);
   function fetchData() {
-    fetch("http://localhost:3000/post")
+    fetch("https://json-server-is-live.onrender.com/post")
       .then((res) => res.json())
       .then((data) => {
         setData(data);
