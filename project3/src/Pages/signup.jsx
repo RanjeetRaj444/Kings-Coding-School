@@ -19,7 +19,7 @@ export default function SignUp() {
   }
   function addData(e) {
     e.preventDefault();
-    fetch("http://localhost:3000/students", {
+    fetch("https://json-server-is-live.onrender.com/students", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

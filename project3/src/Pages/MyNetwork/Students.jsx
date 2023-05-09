@@ -4,7 +4,7 @@ import "./student.css";
 export default function Students() {
   const [data, setdata] = useState([]);
   function fetchData() {
-    fetch(" http://localhost:3000/students")
+    fetch("https://json-server-is-live.onrender.com/students")
       .then((res) => res.json())
       .then((data) => {
         setdata(data);

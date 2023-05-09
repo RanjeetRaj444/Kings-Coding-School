@@ -6,7 +6,7 @@ export default function Mentor() {
   const [data, setData] = useState([]);
   // console.log(data);
   function fetchData() {
-    fetch("http://localhost:3000/Mentors")
+    fetch("https://json-server-is-live.onrender.com/Mentors")
       .then((res) => res.json())
       .then((data) => {
         setData(data);
@@ -15,9 +15,9 @@ export default function Mentor() {
   function filterData(e) {
     let url;
     if (e.target.value === "") {
-      url = "http://localhost:3000/Mentors";
+      url = "https://json-server-is-live.onrender.com/Mentors";
     } else {
-      url = `http://localhost:3000/Mentors?role=${e.target.value}`;
+      url = `https://json-server-is-live.onrender.com/Mentors?role=${e.target.value}`;
     }
     fetch(url)
       .then((res) => res.json())

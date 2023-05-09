@@ -9,9 +9,10 @@ export default function Navbar2({ ele }) {
       justifyContent="right"
       padding="12px"
       alignItems="center"
+      // backgroundColor={"black"}
+      borderBottom={"1px solid grey"}
     >
-      {" "}
-     <Link to="/message"> <Button marginRight="12px">
+     <Link to="/message"> <Button backgroundColor={"black"} color={"white"} marginRight="12px">
         <Heading>
           <IoIosNotifications />
         </Heading>
@@ -20,7 +21,7 @@ export default function Navbar2({ ele }) {
         <DrawerExample ele={ele}/>
       ) : (
         <Link to="/login">
-          <Button>Login</Button>
+          <Button backgroundColor={"black"} color={"white"}>Login</Button>
         </Link>
       )}
     </Box>
